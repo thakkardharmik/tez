@@ -42,8 +42,11 @@ public class SimpleSessionExample extends TezExampleBase {
 
   @Override
   protected void printUsage() {
-    System.err.println("Usage: " + " simplesessionexample"
-        + " <in1,in2> <out1, out2> [numPartitions]");
+    System.err.println("""
+        Usage: \
+         simplesessionexample\
+         <in1,in2> <out1, out2> [numPartitions]\
+        """);
   }
 
   @Override

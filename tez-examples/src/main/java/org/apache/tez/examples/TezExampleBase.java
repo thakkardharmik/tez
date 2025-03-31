@@ -18,15 +18,13 @@
 
 package org.apache.tez.examples;
 
-import javax.annotation.Nullable;
-
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Set;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Sets;
-
+import jakarta.annotation.Nullable;
 import org.apache.commons.cli.Options;
 import org.apache.hadoop.yarn.api.records.ApplicationId;
 import org.apache.tez.client.CallerContext;

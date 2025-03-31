@@ -9,4 +9,5 @@
 .project
 .settings
 pom.xml.versionsBackup
+tez-examples/summary
 target

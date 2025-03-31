@@ -65,8 +65,10 @@ public class JoinDataGen extends TezExampleBase {
   @Override
   protected void printUsage() {
     System.err
-        .println("Usage: "
-            + "joindatagen <outPath1> <path1Size> <outPath2> <path2Size> <expectedResultPath> <numTasks>");
+        .println("""
+            Usage: \
+            joindatagen <outPath1> <path1Size> <outPath2> <path2Size> <expectedResultPath> <numTasks>\
+            """);
     ToolRunner.printGenericCommandUsage(System.err);
   }
 

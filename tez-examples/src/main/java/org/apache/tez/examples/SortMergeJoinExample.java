@@ -87,8 +87,10 @@ public class SortMergeJoinExample extends TezExampleBase {
 
   @Override
   protected void printUsage() {
-    System.err.println("Usage: "
-        + "sortmergejoin <file1> <file2> <numPartitions> <outPath>");
+    System.err.println("""
+        Usage: \
+        sortmergejoin <file1> <file2> <numPartitions> <outPath>\
+        """);
   }
 
   @Override
